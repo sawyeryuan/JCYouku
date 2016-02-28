@@ -40,3 +40,31 @@ public func resizeImage(img: UIImage?) -> UIImage {
         return img!.stretchableImageWithLeftCapWidth(Int(img!.size.width/2), topCapHeight: Int(img!.size.height/2))
     }
 }
+
+// --------------开放接口--------------
+// 开放平台:cloud.youku.com
+// 优酷client_id
+public let ClientIdKey = "client_id"
+public let ClientIdValue = "c4e85b0f15342f4e"
+
+// 搜索视频
+public let API_SearchVideo = "https://openapi.youku.com/v2/searches/video/by_keyword.json"
+// 关键词联想
+public let API_FuzzyKeyword = "https://openapi.youku.com/v2/searches/keyword/complete.json"
+
+// --------------抓包接口--------------
+// 首页请求连接
+public let URL_Home = "http://api.mobile.youku.com/layout/iphone/v5/home?pid=69b81504767483cf&ver=5.3.1"
+public let URL_HotKey = "http://search.api.3g.youku.com/search/hotkeys?pid=69b81504767483cf&ver=5.3.1"
+
+
+
+
+
+
+
+
+
+
+
+
