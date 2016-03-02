@@ -31,10 +31,15 @@ class JCHomeSliderCell: UITableViewCell {
     
     func setupViews() {
         //轮播图
-        adView = AdView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 0.469*screenWidth))
+        adView = AdView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 0.469*ScreenWidth))
         
         // 10个按钮的菜单
-        
+        menu = UIView(frame: CGRectMake(0, CGRectGetMaxY(adView.frame), ScreenWidth, 0.422 * ScreenWidth))
+        let btnWidth = ScreenHeight / 5
+        let btnHeight = menu.height / 5
+        for index in 0...9 {
+            
+        }
         
         
     }

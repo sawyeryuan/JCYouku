@@ -10,8 +10,8 @@
 import Foundation
 import UIKit
 
-public let screenWidth: CGFloat = UIScreen.mainScreen().bounds.width
-public let screenHeight: CGFloat = UIScreen.mainScreen().bounds.height
+public let ScreenWidth: CGFloat = UIScreen.mainScreen().bounds.width
+public let ScreenHeight: CGFloat = UIScreen.mainScreen().bounds.height
 
 public func JCColor(r: CGFloat, g: CGFloat, b: CGFloat) -> UIColor{
     
